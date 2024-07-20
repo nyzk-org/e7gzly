@@ -1,0 +1,38 @@
+.options{
+    background-color:  white;
+    color: black;
+
+}
+.option{
+  background-color:  white ;
+}
+.full-bg-size2 { 
+    background-image: url("/src/assets/admin.jpg");
+    background-repeat: no-repeat; 
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  }
+  .inputfield{
+
+    background-color:  white;
+    color: black;
+  }
+  .all {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .datetime{
+    color:black;
+    background-color: white;
+
+  }

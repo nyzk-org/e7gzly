@@ -1,0 +1,191 @@
+
+
+#password-error-msg {
+    font-size: small;
+    color: red;
+    margin-bottom: 0px;
+  }
+  
+/****** Modal style ******/
+
+.modal-log-in-body {
+    width: 300px;
+  }
+  
+  .modal-log-in-body .modal-title h2, .modal-sign-body .modal-title h2 {
+      color: darkgray;
+      margin-bottom: 25px;
+  }
+  
+  .modal-log-in-body .subtitle, .modal-sign-body .subtitle {
+    color: darkgray;
+  }
+  
+  .form-group {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .form-group .form-input {
+    width: 100%;
+    font-size: 15px;
+    height: 30px;
+    border: solid;
+    border-width: 1;
+    border-color: transparent;
+    border-radius: 10px;
+    background-color: rgb(238, 238, 238);
+  }
+  
+  
+  .form-group .form-input:hover {
+    border-color: #00acc1;
+  }
+  
+  
+  .form-group .form-input:focus {
+    outline: none;
+    border-color: #00acc1;
+  }
+  
+  .modal-dialog-center {
+    position: relative;
+    margin: 30px auto;
+  }
+  
+  
+  .form-check-label {
+    margin-right: 10px;
+  }
+  
+  .btn {
+    background-image: linear-gradient(to right, #00acc1, #015497 50%);
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    float: right;
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+    border-width: 0px;
+    border-radius: 8px;
+    background-size: 200%;
+    background-position: 0%;
+  }
+  
+  .vl {
+    border-left: 2px solid #00acc1;
+  }
+  
+  .btn:hover {
+    background-position: 100% 0%;
+    transition: 0.6s;
+    cursor: pointer;
+  }
+  
+  .react-responsive-modal-root {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+  }
+  
+  .react-responsive-modal-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+  }
+  
+  .react-responsive-modal-container {
+    height: 100%;
+    outline: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: center;
+  }
+  
+  /* Used to trick the browser to center the modal content properly  */
+  .react-responsive-modal-containerCenter:after {
+    width: 0;
+    height: 100%;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .react-responsive-modal-modal {
+    max-width: 800px;
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    background: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+    width: fit-content;
+    border-width: 7px;
+    border-image: linear-gradient(to right bottom, #00acc1, #015497) 1 20%;
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.25);
+    padding: 25px;
+    position: relative;
+    overflow-y: auto;
+  }
+  
+  .react-responsive-modal-closeButton {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    border: none;
+    border-radius: 5px;
+    padding: 0;
+    cursor: pointer;
+    background-color: transparent;
+    display: flex;
+  }
+  
+  @keyframes react-responsive-modal-overlay-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes react-responsive-modal-overlay-out {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  @keyframes react-responsive-modal-modal-in {
+    0% {
+      transform: scale(0.96);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(100%);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes react-responsive-modal-modal-out {
+    0% {
+      transform: scale(100%);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(0.96);
+      opacity: 0;
+    }
+  }
+  

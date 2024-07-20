@@ -1,0 +1,53 @@
+.match-card {
+    padding: 15px;
+    margin-top: 25px;
+    background-image: linear-gradient(to right, #048197, rgb(6, 59, 138));
+    border-radius: 10px;
+    vertical-align: middle;
+    color: white;
+    cursor: pointer;
+    z-index: 0;
+}
+.match-card-row {
+    text-align: center;
+    align-items: center;
+}
+
+.small-text {
+    cursor: pointer;
+    display: block;
+    font-size: 12px;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.team-name {
+    cursor: pointer;
+    display: block;
+    font-size: 12px;
+    margin-top: 5px;
+    text-transform: capitalize;
+}
+
+#edit-btn {
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+#edit-btn:hover {
+    color: #21c9df;
+}
+
+#delete-btn {
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+#delete-btn:hover {
+    color: red;
+}
+
+.edit-delete {
+    margin-top: 5px;
+    text-align: center;
+}
